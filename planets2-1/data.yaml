@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Asteroid', 'Black Hole', 'Earth', 'Galaxy', 'Saturn', 'Sun']
+
+roboflow:
+  workspace: ibm-space-rover
+  project: planets2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ibm-space-rover/planets2/dataset/1
